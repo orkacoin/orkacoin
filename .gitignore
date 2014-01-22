@@ -1,0 +1,34 @@
+src/*.exe
+src/orcacoin
+src/orcacoind
+src/test_orcacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.orcacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+orcacoin-qt
+Orcacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+orcacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
